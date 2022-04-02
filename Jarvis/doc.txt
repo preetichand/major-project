@@ -1,0 +1,22 @@
+___________________________
+----------------------
+        Chand's CLINIC
+Dr.Preeti Chand
+MBBS
+7017365968
+134 Saket , New Delhi-62
+___________________________
+----------------------
+
+
+Patient Details-
+
+Name:-Akshara
+Gender:-Female
+Age:-24
+Problem:-Fever Cold
+Diagnosis:-Needs Treatment
+Prescriptions:-Paracetamol
+Advice:-Take rest
+Date:-2022-02-06
+Time:-13:12:18
