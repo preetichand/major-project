@@ -1,9 +1,9 @@
 import datetime as dt
-class file_op:
-  def write_text(query):
+class file_op: 
+  def write_text(query): 
     try:
       with open("pers.txt") as f:
-        with open("doc.txt", "w") as f1:
+        with open("doc.txt", "w") as f1: 
           for line in f:
             f1.write(line)
           f1.write("Patient Details-"+"\n\n")
@@ -13,7 +13,7 @@ class file_op:
           f1.write('\n')
           str1=str(dt.datetime.now().time())[0:8] 
           f1.write('Time:-%s'%(str1)) 
-    except:
+    except: 
       f1=open("doc.txt", "w")
       f1.write("Patient Details-"+"\n\n")
       for x, y in query.items():

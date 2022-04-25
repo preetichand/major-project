@@ -1,13 +1,13 @@
 import sys
 sys.path.append('C:\Project Git Hub\Jarvis_Assistant\Jarvis')  
 from M2_VTTV.VTTV import text_voice as v
-
+ 
 class format:
     def set_format():
         info={}
         v.speak("Hello Doctor, what is Patient's name")
         info.update({"Name":v.takeCommand().title()})
-
+ 
         v.speak("What is the gender")
         s=v.takeCommand().title()
         if 'M' in s:
@@ -48,7 +48,7 @@ class dr_detail:
         v.speak("What is your Phone number")
         num = list(v.takeCommand())
         sp=' '
-        for i in num:
+        for i in num: 
             if i == sp:
                 num.remove(i)
         str1=''
@@ -62,3 +62,4 @@ class dr_detail:
         return pers_detail
 
 
+ 

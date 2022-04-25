@@ -26,4 +26,4 @@ class pdf_converter:
             f.write(uniq_filename)
         pdf.output(uniq_filename)
 
-        
+         

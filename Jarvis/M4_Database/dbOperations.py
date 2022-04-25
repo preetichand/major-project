@@ -3,7 +3,7 @@ from M2_VTTV.VTTV import text_voice as v
 
 class Database_Insert:
 
-    def Insert():
+    def Insert(): 
         
         client = MongoClient('localhost',27017)
         mydb = client["Jarvis"]
